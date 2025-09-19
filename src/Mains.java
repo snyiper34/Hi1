@@ -1,4 +1,4 @@
-public class Main {
+public class Mains {
     public static void main(String[] args) {
         int chislo = 7;
         byte chislo1 = 127;
@@ -12,7 +12,6 @@ public class Main {
         System.out.println(chislo3);
         System.out.println(chislo4);
         System.out.println(chislo5);
-
         float number = 27.12f;
         long number2 = 987678965549l;
         double number3 = 2.786;
@@ -27,14 +26,12 @@ public class Main {
         System.out.println(number5);
         System.out.println(number6);
         System.out.println(number7);
-
         int ludmilaPavlovna = 23;
         int annaSergeevna = 27;
         int ekaterinaAndereevna = 30;
         int list = 480;
         int list1 = list / (ludmilaPavlovna + annaSergeevna + ekaterinaAndereevna);
         System.out.println("На каждого ученика рассчитано " + list1 + " листов бумаги");
-
         int workBootle = 16;
         int time = 2;
         int time1 = 20;
@@ -48,17 +45,14 @@ public class Main {
         int workData1 = (minute * day) / time * workBootle;
         int workData2 = (days3 * minute) / time * workBootle;
         int workData4 = (mother1 * minute) / time * workBootle;
-
         String time20Minutes = "20 минут";
         String timeDay = "сутки";
         String time3Days = "3 дня";
         String timeMonth = "1 месяц";
-
         System.out.println("За " + time20Minutes + " машина произвела " + workwData + " штук бутылок");
         System.out.println("За " + timeDay + " машина произвела " + workData1 + " штук бутылок");
         System.out.println("За " + time3Days + " машина произвела " + workData2 + " штук бутылок");
         System.out.println("За " + timeMonth + " машина произвела " + workData4 + " штук бутылок");
-
         int jar = 120;
         int whitePain = 2;
         int brownPaint = 4;
@@ -66,9 +60,7 @@ public class Main {
         int clas = jar / jar1;
         int white = clas * whitePain;
         int brown = clas * brownPaint;
-
         System.out.println("В школе, где " + clas + " классов, нужно " + white + " банок белой краски и " + brown + " банок коричневой краски");
-
         int banan = 80;
         int milk = 105;
         int plombir = 100;
@@ -84,7 +76,6 @@ public class Main {
         int gr = banan2 + milk2 + plombir2 + egg2;
         float kg = gr / 1000f;
         System.out.println("Всего грамм " + gr + " Всего килограмм " + kg);
-
         int sbros = 7;
         int sbrosKg = sbros * 1000;
         int poxyd = 250;
@@ -94,7 +85,6 @@ public class Main {
         int tim2 = sbrosKg / poxyd1;
         int tim3 = sbrosKg / sr;
         System.out.println("Если спорстмен трать в день 250 грамм то ему понадобиться " + tim + " дней, если 500 грамм в день то " + tim2 + " дней а в среднем понадобиться " + tim3 + " дней");
-
         int masha = 67760;
         int denis = 83690;
         int kristina = 76230;
@@ -102,12 +92,10 @@ public class Main {
         int mashaGod = masha * god;
         int denisGod = denis * god;
         int kristinaGod = kristina * god;
-
         float proc = 1.1f;
         float masha1 = masha * proc;
         float denis1 = denis * proc;
         float kristina1 = kristina * proc;
-
         float raznica = (masha1 - masha) * god;
         float raznica1 = (denis1 - denis) * god;
         float raznica3 = (kristina1 - kristina) * god;
@@ -115,7 +103,5 @@ public class Main {
         System.out.println("Маша теперь получает " + masha1 + " рублей. Годовой доход вырос на " + raznica + " рублей");
         System.out.println("Маша теперь получает " + denis1 + " рублей. Годовой доход вырос на " + raznica1 + " рублей");
         System.out.println("Маша теперь получает " + kristina1 + " рублей. Годовой доход вырос на " + raznica3 + " рублей");
-
-
     }
 }
