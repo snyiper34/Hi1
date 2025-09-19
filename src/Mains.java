@@ -1,4 +1,4 @@
-public class Main {
+public class Mains {
     public static void main(String[] args) {
         int chislo = 7;
         byte chislo1 = 127;
