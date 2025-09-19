@@ -99,6 +99,7 @@ public class Main {
         float raznica = (masha1 - masha) * god;
         float raznica1 = (denis1 - denis) * god;
         float raznica3 = (kristina1 - kristina) * god;
+
         System.out.println("Маша теперь получает " + masha1 + " рублей. Годовой доход вырос на " + raznica + " рублей");
         System.out.println("Маша теперь получает " + denis1 + " рублей. Годовой доход вырос на " + raznica1 + " рублей");
         System.out.println("Маша теперь получает " + kristina1 + " рублей. Годовой доход вырос на " + raznica3 + " рублей");
